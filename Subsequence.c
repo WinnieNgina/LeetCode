@@ -6,7 +6,7 @@ int IsSubsequence (char* str1, char* str2);
 int main ()
 {
 	char* str1 = "abcde";
-	char* str2 = "ace";
+	char* str2 = "aec";
 	//int size1 = sizeof(str1) / sizeof(str1[0]);
 	//int size2 = sizeof(str2) / sizeof(str2[0]);
 	int result = IsSubsequence (str1, str2);
