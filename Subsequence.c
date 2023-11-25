@@ -32,9 +32,9 @@ int IsSubsequence (char* str1, char* str2)
 	{
 		if (str1[i] == str2[j])
 		{
+			str[k] = str1[i];
 			i++;
 			j++;
-			str[k] = str1[i];
 			k++;
 		}
 		else
