@@ -14,7 +14,8 @@ def find_length(nums: List[int], k: int) -> int:
     return length
 
 
-nums2 = [2, -1, 2, 1, -3, 2, 1]
+nums2 = [2, -1, 2, 1, -3, 2, 1]ls
+
 k2 = 4
 result2 = find_length(nums2, k2)
 print(f"Test 2: {result2}")  # Expected output: 5
